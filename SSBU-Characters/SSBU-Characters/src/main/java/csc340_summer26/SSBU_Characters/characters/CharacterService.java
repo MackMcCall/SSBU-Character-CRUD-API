@@ -44,7 +44,7 @@ public class CharacterService {
     }
 
     public List<Character> searchCharacters(String keyword) {
-        return characterRepository.findByNameContainingIgnoreCaseOrDescriptionContaningIgnoreCase(keyword, keyword);
+        return characterRepository.findByNameContainingIgnoreCaseOrDescriptionContainingIgnoreCase(keyword, keyword);
     }
 
     public List<Character> getCharactersByUniverse(String keyword) {

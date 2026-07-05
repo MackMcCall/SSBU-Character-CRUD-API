@@ -30,7 +30,7 @@ public class Character {
     @Column
     private String universe;
 
-    @Column
+    @Column(name = "contentpack")
     private String contentPack;
 
     public Character(String name, String description, String universe, String contentPack) {
