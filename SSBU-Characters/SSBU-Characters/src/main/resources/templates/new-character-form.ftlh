@@ -12,10 +12,10 @@
 
             <nav>
                 <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="details.html">Details</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="new-character-form.html">New Character</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/details">Details</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/new-character-form">New Character</a></li>
                 </ul>
             </nav>
         </header>
@@ -27,7 +27,11 @@
         </h2>
         <hr />
 
-        <form action="/submit-data" method="POST">
+        <form
+            action="/characters/save"
+            method="post"
+            enctype="multipart/form-data"
+        >
             <label for="character-name">Character Name:</label>
             <input
                 type="text"

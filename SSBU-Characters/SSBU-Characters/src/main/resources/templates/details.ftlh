@@ -12,10 +12,10 @@
 
             <nav>
                 <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="details.html">Details</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="new-character-form.html">New Character</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/details">Details</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/new-character-form">New Character</a></li>
                 </ul>
             </nav>
         </header>
@@ -27,13 +27,18 @@
         <h1>${character.name}</h1>
 
         <img
-            src="/images/donkeyKong.png"
+            src="/images/${character.name}.png"
             class="details-img"
-            alt="Donkey Kong"
+            alt="${character.name}"
         />
 
         <p>
             ${character.description}
         </p>
+
+        <div class="alert alert-danger" role="alert">
+        Delete Character
+        <a style="float: right;" href="/characters/delete/${character.id?c}" class="btn btn-danger">Delete</a>
+        </div>
     </body>
 </html>

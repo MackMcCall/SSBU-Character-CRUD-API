@@ -12,10 +12,10 @@
 
             <nav>
                 <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="details.html">Details</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="new-character-form.html">New Character</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/details">Details</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/new-character-form">New Character</a></li>
                 </ul>
             </nav>
         </header>
