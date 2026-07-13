@@ -1,0 +1,137 @@
+h1 {
+    color: rgb(43, 45, 45);
+}
+
+h2 {
+    color: rgb(217, 46, 46);
+}
+
+h3 {
+    color: rgb(110, 109, 109);
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.character-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.character {
+    flex: 300px;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.details-img {
+    width: 500px;
+    height: 500px;
+}
+
+/* =========== */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #222;
+    color: white;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* =========== */
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0052a3;
+}
+
+/* =========== */
+
+.search-card {
+    width: 300px;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-card input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.search-card .icon {
+    color: #888;
+    font-size: 16px;
+}
